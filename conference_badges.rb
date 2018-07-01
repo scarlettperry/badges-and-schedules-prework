@@ -30,7 +30,7 @@ def printer (attendees)
     puts name 
   end 
   
-  rooms.each do |assigned|
+  room.each do |assigned|
     puts assigned
   end 
 end
